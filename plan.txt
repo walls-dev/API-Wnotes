@@ -1,0 +1,32 @@
+wdev: Sistema de anotações simples
+
+O que o projeto precisa fazer? (São as ações do sistema)
+- Listar as anotações
+- Pegar informações de UMA anotação
+- Inserir uma anotação nova
+- Atualizar uma anotação 
+- Deletar uma anotação
+
+Qual a estrutura de dados?
+- Local para armazenar as anotações
+--id
+--title
+--body
+
+Quais os endpoints?
+- (MÉTODO) /url (PARAMETROS)
+- (GET) /api/notes
+- (GET) /api/notes/123
+- (POST) /api/note (title, body)
+- (PUT) /api/note/123 (title, body)
+- (DELETE) /api/note/123
+
+Quais os endpoints (MODO ESTRUTURAL)?
+- api/getall.php
+- api/get.php (id)
+- api/insert.php (title, body)
+- api/update.php (id, title, body)
+- api/delete.php (id)
+
+*** O mesmo sistema deve ser montado em OO e MVC
+*** Para testar a API UTILIZAR: https://resttesttest.com/
